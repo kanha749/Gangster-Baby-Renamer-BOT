@@ -41,20 +41,20 @@ async def start(client, message):
     button=InlineKeyboardMarkup([[
         InlineKeyboardButton("😈 Developer 😈", callback_data='dev')
         ],[
-        InlineKeyboardButton('📢 Updates', url='https://t.me/LazyDeveloper'),
-        InlineKeyboardButton('🤝 Support', url='https://t.me/LazyPrincessSupport')
+        InlineKeyboardButton('📢 Updates', url='https://t.me/+Tbkw7GQzcB05M2U9'),
+        InlineKeyboardButton('🤝 Support', url='https://t.me/+Tbkw7GQzcB05M2U9')
         ],[
         InlineKeyboardButton('⚡️ About', callback_data='about'),
         InlineKeyboardButton('🤕 Help', callback_data='help')
         ],[
-        InlineKeyboardButton("🙋🏻 How to make this BOT ? ", url='https://www.youtube.com/channel/UCY-iDra0x2hdd9PdHKcZkRw')
+        InlineKeyboardButton("🙋🏻 How to make this BOT ? ", url='https://t.me/+Tbkw7GQzcB05M2U9')
         ],[
-        InlineKeyboardButton("🎬 Join Our Movie Channel !", url='https://t.me/real_MoviesAdda6')
+        InlineKeyboardButton("🎬 Join Our Movie Channel !", url='https://t.me/+Tbkw7GQzcB05M2U9')
         ],[
-        InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://www.youtube.com/channel/UCY-iDra0x2hdd9PdHKcZkRw')
+        InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://t.me/+Tbkw7GQzcB05M2U9')
         ],[
-        InlineKeyboardButton("📝Admin-TG", url='https://t.me/LazyDeveloperr'),
-        InlineKeyboardButton("📝Admin-Channel", url='https://t.me/LazyDeveloper')
+        InlineKeyboardButton("📝Admin-TG", url='https://t.me/+Tbkw7GQzcB05M2U9'),
+        InlineKeyboardButton("📝Admin-Channel", url='https://t.me/+Tbkw7GQzcB05M2U9')
         ]
         ])
     if START_PIC:
@@ -173,6 +173,7 @@ async def cb_handler(client, query: CallbackQuery):
             await query.message.reply_to_message.delete()
         except:
             await query.message.delete()
+
 
 
 
